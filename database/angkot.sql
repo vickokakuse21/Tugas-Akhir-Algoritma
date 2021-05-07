@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 05, 2021 at 10:58 PM
+-- Generation Time: May 07, 2021 at 11:17 PM
 -- Server version: 5.1.41
 -- PHP Version: 5.3.1
 
@@ -62,8 +62,8 @@ CREATE TABLE IF NOT EXISTS `berita` (
 --
 
 INSERT INTO `berita` (`id_berita`, `judul`, `berita`, `tanggal`, `gambar`) VALUES
-(1, 'Air Terjun Grenjengan Jol', 'Jolong sebelumnya terkenal sebagai perkebunan kopi dan bumi perkemahan. Di wilayah yang berada di lereng lereng gunung Muria dan termasuk dalam wilayah administrasi kecamatan Gembong kabupaten Pati itu memang terdapat PT Perkebunan Nasional (PTPN IX) yang merupakan salah satu perkebunan dan pabrik pengolahan kopi yang sudah beroperasi sejak jaman penjajahan Belanda.', '10/08/2016', 'air-terjung-grenjengan-jolong.jpg'),
-(2, 'Pintu Gerbang Kaputren Majapahit di Pati ', 'Pintu Gerbang Kaputren Majapahit ini, terletak di Desa Rendole kec Margorejo kabupaten Pati. yang merupakan salah satu situs cagar alam yang berupa Pintu Gerbang yang terbuat dari kayu jati.Pintu gerbang ini merupakan peninggalan Kerajaan Majapahit.', '10/08/2016', 'dsc_9290.jpg');
+(1, 'Pedagang Pasar Pesing Kedoya Utara Ikut Tes Swab', 'Puluhan pedagang Pasar Pesing, Kedoya Utara, Kebon Jeruk, Jakarta Barat, mengikuti tes swab Coronavirus Disease 2019 (COVID-19) yang digelar Puskesmas Kecamatan Kebon Jeruk.\r\n\r\n"Hari ini ada 32 pedagang yang ikut tes swab, "\r\nCamat Kebon Jeruk, Saumun mengatakan, pemeriksaan tes swab merupakan salah satu upaya antisipasi untuk memutus mata rantai penyebaran virus Corona. Hasil tes bisa diketahui sejak dini sehingga bisa dilakukan pencegahan sejak dini.\r\n\r\n"Hari ini ada 32 pedagang yang ikut tes swab," ujar Saumun, Kamis (18/6).\r\n\r\nDia menambahkan, hasil pemeriksaan tes swab tersebut baru bisa diketahui satu hingga dua minggu ke depan. Pihaknya juga telah menyediakan tempat isolasi di GOR Kebon Jeruk, jika nanti ada yang positif.', '18/06/2020', 'swab.jpg'),
+(2, 'PKL Pasar Pesing Ditata', 'Aparat Kecamatan Kebon Jeruk Jakarta Barat melakukan penataan pedagang kaki lima (PKL) di sekitar Pasar Pesing, Kelurahan Kedoya Utara.\r\n\r\nPenataan dilakukan sebagai tindaklanjut aspirasi masyarakat yang mengeluhkan keberadaan PKL di lokasi tersebut yang memenuhi bahu jalan. Selain mengganggu akses ke pasar juga menimbulkan kemacetan dan membuat lingkungan taampak semrawut.\r\n\r\nCamat Kebon Jeruk, Saumun, mengungkapkan semula pedagang akan direlokasi ke Pasar Inpres Kedoya. Namun karena unit kiosnya terbatas, akhirnya pedagang memilih berjualan di bahu jalan Pasar Pesing. Petugas pun menertibkannya karena dikeluhkan masyarakat. \r\n\r\nPenertiban melibatkan Satpol PP, petugas Sudis Perhubungan, Satlantas Polsek Kebon Jeruk dan petugas penanganan prasarana dan sarana umum (PPSU). Selain menghalau PKL, petugas juga mengatur kelancaran lalu lintas di sekitar Pasar Pesing Koneng.\r\n\r\nSelanjutnya, atas kesepakatan bersama antara pengurus RT-RW dan pedagang, disepakati pengaturan jam operasional. “Keberadaan PKL Pasar Pesing dikelola pengurus RT-RW setempat dengan pengaturan jam berjualan yang harus dipatuhi pedagang," jelas Saumun, Senin (15/4).  \r\n\r\nUntuk pedagang pakaian, tas dan lainnya, boleh berjualan mulai pukul 17.00-22.00. Sedang pedagang sayuran dan sejenisnya mulai pukul 22.00-08.00. Setelah jam tersebut, pedagang sayuran harus meninggalkan lokasi. Mereka juga harus menjaga kebersihan lingkungan. (Aji)', '10/5/2020', 'pkl_psing.jpg');
 
 -- --------------------------------------------------------
 
@@ -128,7 +128,7 @@ CREATE TABLE IF NOT EXISTS `peta_wisata` (
   `alamat` text,
   `gambar` text,
   PRIMARY KEY (`id_wisata`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=19 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=23 ;
 
 --
 -- Dumping data for table `peta_wisata`
@@ -146,7 +146,11 @@ INSERT INTO `peta_wisata` (`id_wisata`, `id_kategori`, `nama`, `deskripsi`, `lat
 (15, 44, 'Juwana Water Fantasy, Jl. Juwana Rembang KM 7, Bumimulyo, Batangan, Pati, Kabupaten Pati, Jawa Tenga', 'Liburan Seru di Juwana Water Fantasy di Pati Jawa Tengah, Tempat Wisata Terindah - Pada saat musim liburan merupakan waktu yang sangat ditunggu-tunggu bag kita semua, karena pada waktu liburan, kita dapat beristirahat dari segala rutinitas sekolah dan pekerjaan kita. Untuk mengisi liburan ini dapat dilakukan dengan berbagai macam aktivitas, salah satunya adalah mengunjungi berbagai macam tempat wisata terutama yang dapat dinikmati semua anggota keluarga. Bagi anda yang berada di Kabupaten Pati dan sekitarnya, anda dapat mengunjungi sebuah tempat wisata keluarga yang tergolong baru di Pati, yaitu Juwana Water Fantasy atau sering disingkat dengan JWF.', -6.72035833514686, 111.053795814514, 'Jl. Raya Pati-Tayu, Tambaharjo, Kec. Pati, Kabupaten Pati, Jawa Tengah 59119, Indonesia', 'juwana water.jpg'),
 (16, 45, 'Swalayan ADA, Sidoharjo, Kec. Pati, Kabupaten Pati, Jawa Tengah ', 'Swalayan Ada adalah salah satu swalayan atau pusat perbelanjaan di Kota Pati. Swalayan ini belum lama dibangun, tepatnya diresmikan tanggal 7 Juli 2012.\r\n\r\nSwalayan Ada  berlokasi sangat strategis dan mudah ditemukan karena berada tepat di jalur pantura. Jika Anda berada di Simpanglima Pati, Anda cukup lurus menuju jalan arah Jalan Pemuda atau menuju arah kecamatan Juwana, kurang lebih 3 km. Kemudian Anda akan menumukan Tugu Tani dan swalayan Ada berada tepat di depan tugu tersebut.', -6.7530897591877, 111.051735877991, 'Jl. Pemuda No.335, Kalidoro, Kec. Pati, Kabupaten Pati, Jawa Tengah 59118, Indonesia', 'swalayan ada pati.jpg'),
 (17, 45, 'Luwes Swalayan, Jalan Pati - Purwodadi, Pati Kidul, Kecamatan Pati, Kec. Pati, Kabupaten Pati, Jawa ', 'Luwes swalayan', -6.75696794548005, 111.039445996284, 'Jalan Sukolilo - Babalan, Pati Kidul, Kec. Pati, Kabupaten Pati, Jawa Tengah 59114, Indonesia', 'pasar swalayan luwes pati.jpg'),
-(18, 45, 'Plasa Pati, Jl. Jenderal Sudirman, Pati Kidul, Kec. Pati, Kabupaten Pati, Jawa Tengah', 'Plasa Pati Tempat Belanja Kebutuhan Barang Sehari-hari ', -6.75315768098709, 111.040716022253, 'Jl. DR. Wahidin Soediro Husodo, Kec. Pati, Kabupaten Pati, Jawa Tengah 59111, Indonesia', 'plasa pati.jpg');
+(18, 45, 'Plasa Pati, Jl. Jenderal Sudirman, Pati Kidul, Kec. Pati, Kabupaten Pati, Jawa Tengah', 'Plasa Pati Tempat Belanja Kebutuhan Barang Sehari-hari ', -6.75315768098709, 111.040716022253, 'Jl. DR. Wahidin Soediro Husodo, Kec. Pati, Kabupaten Pati, Jawa Tengah 59111, Indonesia', 'plasa pati.jpg'),
+(19, 44, 'Jl. Daan Mogot No.48, RT.6/RW.2, Kedoya Utara', 'Pool Pemberhentian Pesing', -6.15831617246388, 106.767839044333, 'Jl. Daan Mogot No.48, RT.6/RW.2, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520, Indonesia', ''),
+(20, 44, 'Jl. Kedoya Raya Blok B2 No.19', 'Pasar Pesing', -6.16170690974387, 106.766815111041, 'Jl. Kedoya Raya Blok B2 No.19, RT.5/RW.1, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520, Indonesia', ''),
+(21, 45, 'National Monument', 'monas', -6.17537164129481, 106.826934814453, 'Unnamed Road, RT.5/RW.2, Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110, Indonesia', ''),
+(22, 45, 'Sea World Ancol', 'ancol', -6.12621776644894, 106.842727661133, '10, Ancol, Pademangan, North Jakarta City, Jakarta, Indonesia', '');
 
 -- --------------------------------------------------------
 
@@ -165,17 +169,17 @@ CREATE TABLE IF NOT EXISTS `rute_wisata` (
   `km` varchar(100) DEFAULT NULL,
   `nilai` varchar(15) DEFAULT NULL,
   PRIMARY KEY (`id_rute`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=23 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=26 ;
 
 --
 -- Dumping data for table `rute_wisata`
 --
 
 INSERT INTO `rute_wisata` (`id_rute`, `lokasi_awal`, `lokasi_tujuan`, `lat`, `lng`, `alamat`, `waktu`, `km`, `nilai`) VALUES
-(9, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Goa Pancur Jimbaran, Kayen, Kabupaten Pati, Jawa Tengah', '-6.763488342429051', '111.03933334350586', 'Jl. Ki Ageng Selo No.89, Blaru, Kec. Pati, Kabupaten Pati, Jawa Tengah 59114, Indonesia', '28', '15.0 km', '10'),
-(10, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Goa Wareh, Kedumulyo, Sukolilo, Kabupaten Pati, Jawa Tengah', '-6.844623671722899', '111.00654602050781', 'Jalan Sukolilo - Babalan, Sundoluhur, Kayen, Kabupaten Pati, Jawa Tengah 59171, Indonesia', '44', '25.4 km', '20'),
-(11, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Air Terjun Tadah Hujan, Sukolilo, Kabupaten Pati, Jawa Tengah', '-6.753601170148724', '111.00972175598145', 'Jl. Raya Banyu Urip, Sukoharjo, Margorejo, Kabupaten Pati, Jawa Tengah 59163, Indonesia', '29', '15.3 km', '34'),
-(12, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Grenjengan Sewu, Jrahi, Gunung wungkal, Kabupaten Pati, Jawa Tengah', '-6.783602999068411', '111.05581283569336', 'Jl. Gabus Winong, Gempolsari, Gabus, Kabupaten Pati, Jawa Tengah 59173, Indonesia', '39', '19.8 km', '56'),
+(9, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Goa Pancur Jimbaran, Kayen, Kabupaten Pati, Jawa Tengah', '-6.763488342429051', '111.03933334350586', 'Jl. Ki Ageng Selo No.89, Blaru, Kec. Pati, Kabupaten Pati, Jawa Tengah 59114, Indonesia', '27 mins', '15.0 km', '10'),
+(10, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Goa Wareh, Kedumulyo, Sukolilo, Kabupaten Pati, Jawa Tengah', '-6.844623671722899', '111.00654602050781', 'Jalan Sukolilo - Babalan, Sundoluhur, Kayen, Kabupaten Pati, Jawa Tengah 59171, Indonesia', '43 mins', '25.4 km', '20'),
+(11, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Air Terjun Tadah Hujan, Sukolilo, Kabupaten Pati, Jawa Tengah', '-6.753601170148724', '111.00972175598145', 'Jl. Raya Banyu Urip, Sukoharjo, Margorejo, Kabupaten Pati, Jawa Tengah 59163, Indonesia', '29 mins', '16.2 km', '34'),
+(12, 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', 'Grenjengan Sewu, Jrahi, Gunung wungkal, Kabupaten Pati, Jawa Tengah', '-6.783602999068411', '111.05581283569336', 'Jl. Gabus Winong, Gempolsari, Gabus, Kabupaten Pati, Jawa Tengah 59173, Indonesia', '39 mins', '19.8 km', '56'),
 (13, 'Goa Pancur Jimbaran, Kayen, Kabupaten Pati, Jawa Tengah', 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', '-6.852122882357876', '111.00568771362305', 'Jalan Sukolilo - Babalan, Sundoluhur, Kayen, Kabupaten Pati, Jawa Tengah 59171, Indonesia', '16 mins', '9.6 km', '10'),
 (14, 'Goa Pancur Jimbaran, Kayen, Kabupaten Pati, Jawa Tengah', 'Goa Wareh, Kedumulyo, Sukolilo, Kabupaten Pati, Jawa Tengah', '-6.831329327029449', '111.04070663452148', 'Jl. Gabus-Tlogoayu, Sugihrejo, Gabus, Kabupaten Pati, Jawa Tengah 59173, Indonesia', '24 mins', '14.8 km', '22'),
 (15, 'Goa Pancur Jimbaran, Kayen, Kabupaten Pati, Jawa Tengah', 'Air Terjun Tadah Hujan, Sukolilo, Kabupaten Pati, Jawa Tengah', '-6.845134985283045', '111.05572700500488', 'Jl. Kayen - Tambakromo, Angkatan Lor, Tambakromo, Kabupaten Pati, Jawa Tengah 59174, Indonesia', '28 mins', '15.8 km', '22'),
@@ -185,7 +189,9 @@ INSERT INTO `rute_wisata` (`id_rute`, `lokasi_awal`, `lokasi_tujuan`, `lat`, `ln
 (19, 'Air Terjun Tadah Hujan, Sukolilo, Kabupaten Pati, Jawa Tengah', 'Grenjengan Sewu, Jrahi, Gunung wungkal, Kabupaten Pati, Jawa Tengah', '-6.761783671980801', '111.12104415893555', 'Jl. Jakenan Winong, Jakenan, Kabupaten Pati, Jawa Tengah 59182, Indonesia', NULL, NULL, '21'),
 (20, 'Grenjengan Sewu, Jrahi, Gunung wungkal, Kabupaten Pati, Jawa Tengah', 'Masjid Agung Baitunnur, Pati Kidul, Kec. Pati, Kabupaten Pati, Jawa Tengah', '-6.673473553754948', '111.10628128051758', 'Jl. Juwana - Tayu, Kepoh, Wedarijaksa, Kabupaten Pati, Jawa Tengah 59152, Indonesia', NULL, NULL, '43'),
 (21, 'Grenjengan Sewu, Jrahi, Gunung wungkal, Kabupaten Pati, Jawa Tengah', 'Air Terjun Tretes, Kali Silungonggo, Kabupaten Pati, Jawa Tengah', '-6.77780733658107', '111.03538513183594', 'Jalan Sukolilo - Babalan, Langenharjo, Margorejo, Kabupaten Pati, Jawa Tengah 59116, Indonesia', NULL, NULL, '32'),
-(22, 'Masjid Agung Baitunnur, Pati Kidul, Kec. Pati, Kabupaten Pati, Jawa Tengah', 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', '-6.623685526922454', '111.05478286743164', 'Jl. Raya Pati-Tayu, Sidomukti, Margoyoso, Kabupaten Pati, Jawa Tengah 59154, Indonesia', NULL, NULL, '29');
+(22, 'Masjid Agung Baitunnur, Pati Kidul, Kec. Pati, Kabupaten Pati, Jawa Tengah', 'Waduk Gunungrowo, Gembong, Kabupaten Pati, Jawa Tengah', '-6.623685526922454', '111.05478286743164', 'Jl. Raya Pati-Tayu, Sidomukti, Margoyoso, Kabupaten Pati, Jawa Tengah 59154, Indonesia', NULL, NULL, '29'),
+(24, 'Jl. Daan Mogot No.48, RT.6/RW.2, Kedoya Utara', 'Jl. Kedoya Raya Blok B2 No.19', '-6.161706243065445', '106.76681444048882', 'Jl. Kedoya Raya Blok B2 No.19, RT.5/RW.1, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520, Indonesia', '0', '', '4040'),
+(25, 'National Monument', 'Sea World Ancol', '-6.1658816986523926', '106.8349512739993', 'Jl. Gedung Kesenian No.23, Kota Tua, Ps. Baru, Kecamatan Sawah Besar, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10170, Indonesia', '6 mins', '3.4 km', '5500');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
